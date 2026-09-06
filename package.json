@@ -1,0 +1,13 @@
+{
+  "name": "nebula-cloud-hosting",
+  "version": "1.0.0",
+  "description": "Nebula Cloud hosting platform for Discord bots, Minecraft, and VPS nodes.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Static site build complete'"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
