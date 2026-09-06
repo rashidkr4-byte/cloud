@@ -19,6 +19,10 @@
             <a href="#" class="nav-link active" onclick="switchTab('bots', event)">Bots</a>
             <a href="#" class="nav-link" onclick="switchTab('minecraft', event)">Minecraft</a>
             <a href="#" class="nav-link" onclick="switchTab('vps', event)">VPS</a>
+            <a href="#" class="nav-link" onclick="switchTab('tools', event)">Tools</a>
+            <a href="#" class="nav-link" onclick="switchTab('store', event)">Store</a>
+            <a href="#" class="nav-link" onclick="switchTab('apikeys', event)">API Keys</a>
+            <a href="#" class="nav-link" onclick="switchTab('developers', event)">Developers</a>
             <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="nav-link discord-nav-btn">Discord</a>
         </div>
         <div class="currency-selector">
@@ -31,7 +35,6 @@
         </div>
     </nav>
 
-    <!-- BOTS TAB (All 8 tiers matching image, capped storage at 20GB max) -->
     <div id="bots-tab" class="tab-content active">
         <header class="main-header">
             <h1>Discord Bot Hosting</h1>
@@ -39,7 +42,7 @@
         </header>
         <div class="hosting-grid">
             <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Starter</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -48,9 +51,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="24" data-usd="0.30" data-eur="0.28" data-gbp="0.24">24</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>512 MB</strong></li>
-                    <li><span>vCPU</span> <strong>1 Core</strong></li>
-                    <li><span>Storage</span> <strong>5 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>512 MB RAM</strong></li>
+                    <li><span>Processor</span> <strong>1 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>15 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>1 Backup</strong></li>
                     <li><span>MySQL DB</span> <strong>1 Database</strong></li>
                 </ul>
@@ -58,7 +61,7 @@
             </div>
 
             <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Basic</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -67,9 +70,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="60" data-usd="0.72" data-eur="0.67" data-gbp="0.58">60</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>1 GB</strong></li>
-                    <li><span>vCPU</span> <strong>1 Core</strong></li>
-                    <li><span>Storage</span> <strong>10 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>1 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>1 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>20 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>1 Backup</strong></li>
                     <li><span>MySQL DB</span> <strong>1 Database</strong></li>
                 </ul>
@@ -78,7 +81,7 @@
 
             <div class="node-card popular">
                 <div class="popular-ribbon">MOST POPULAR</div>
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Silver</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -87,9 +90,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="95" data-usd="1.15" data-eur="1.05" data-gbp="0.90">95</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>2 GB</strong></li>
-                    <li><span>vCPU</span> <strong>2 Cores</strong></li>
-                    <li><span>Storage</span> <strong>15 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>2 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>2 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>40 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>1 Backup</strong></li>
                     <li><span>MySQL DB</span> <strong>1 Database</strong></li>
                 </ul>
@@ -97,7 +100,7 @@
             </div>
 
             <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Gold</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -106,9 +109,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="149" data-usd="1.80" data-eur="1.65" data-gbp="1.42">149</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>4 GB</strong></li>
-                    <li><span>vCPU</span> <strong>2 Cores</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>4 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>2 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>60 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>2 Backups</strong></li>
                     <li><span>MySQL DB</span> <strong>1 Database</strong></li>
                 </ul>
@@ -116,7 +119,7 @@
             </div>
 
             <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Platinum</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -125,17 +128,18 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="200" data-usd="2.40" data-eur="2.20" data-gbp="1.90">200</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>6 GB</strong></li>
-                    <li><span>vCPU</span> <strong>2 Cores</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>6 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>2 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>80 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>3 Backups</strong></li>
                     <li><span>MySQL DB</span> <strong>1 Database</strong></li>
                 </ul>
                 <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="deploy-btn">Order Now</a>
             </div>
 
-            <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+            <div class="node-card popular">
+                <div class="popular-ribbon">BEST VALUE</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Diamond</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -144,9 +148,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="269" data-usd="3.25" data-eur="2.95" data-gbp="2.55">269</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>8 GB</strong></li>
-                    <li><span>vCPU</span> <strong>3 Cores</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>8 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>3 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>120 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>4 Backups</strong></li>
                     <li><span>MySQL DB</span> <strong>1 Database</strong></li>
                 </ul>
@@ -154,7 +158,7 @@
             </div>
 
             <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Netherite</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -163,9 +167,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="329" data-usd="3.95" data-eur="3.60" data-gbp="3.12">329</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>10 GB</strong></li>
-                    <li><span>vCPU</span> <strong>4 Cores</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>10 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>4 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>160 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>5 Backups</strong></li>
                     <li><span>MySQL DB</span> <strong>2 Databases</strong></li>
                 </ul>
@@ -173,7 +177,7 @@
             </div>
 
             <div class="node-card">
-                <div class="card-badge">BOT PLAN</div>
+                <div class="card-badge">HOSTING PLAN</div>
                 <div class="card-title-area">
                     <h3>Obsidian</h3>
                     <span class="sub-title">Discord Bot Node</span>
@@ -182,9 +186,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="399" data-usd="4.80" data-eur="4.40" data-gbp="3.80">399</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>12 GB</strong></li>
-                    <li><span>vCPU</span> <strong>4 Cores</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Memory</span> <strong>12 GB RAM</strong></li>
+                    <li><span>Processor</span> <strong>4 vCPU</strong></li>
+                    <li><span>Storage</span> <strong>240 GB NVMe SSD</strong></li>
                     <li><span>Backups</span> <strong>10 Backups</strong></li>
                     <li><span>MySQL DB</span> <strong>5 Databases</strong></li>
                 </ul>
@@ -193,7 +197,6 @@
         </div>
     </div>
 
-    <!-- MINECRAFT TAB -->
     <div id="minecraft-tab" class="tab-content">
         <header class="main-header">
             <h1>Minecraft Hosting</h1>
@@ -210,9 +213,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="150" data-usd="1.80" data-eur="1.65" data-gbp="1.45">150</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>2 GB</strong></li>
+                    <li><span>Memory</span> <strong>2 GB RAM</strong></li>
                     <li><span>Processor</span> <strong>Ryzen 7 (100% CPU)</strong></li>
-                    <li><span>Storage</span> <strong>8 GB NVMe</strong></li>
+                    <li><span>Storage</span> <strong>8 GB NVMe SSD</strong></li>
                     <li><span>Network</span> <strong>3 Gbps Bandwidth</strong></li>
                 </ul>
                 <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="deploy-btn">Order Now</a>
@@ -228,9 +231,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="200" data-usd="2.40" data-eur="2.20" data-gbp="1.90">200</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>4 GB</strong></li>
+                    <li><span>Memory</span> <strong>4 GB RAM</strong></li>
                     <li><span>Processor</span> <strong>Ryzen 7 (200% CPU)</strong></li>
-                    <li><span>Storage</span> <strong>15 GB NVMe</strong></li>
+                    <li><span>Storage</span> <strong>15 GB NVMe SSD</strong></li>
                     <li><span>Network</span> <strong>3 Gbps Bandwidth</strong></li>
                 </ul>
                 <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="deploy-btn">Order Now</a>
@@ -247,9 +250,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="340" data-usd="4.10" data-eur="3.75" data-gbp="3.25">340</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>8 GB</strong></li>
+                    <li><span>Memory</span> <strong>8 GB RAM</strong></li>
                     <li><span>Processor</span> <strong>Ryzen 7 (300% CPU)</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Storage</span> <strong>25 GB NVMe SSD</strong></li>
                     <li><span>Network</span> <strong>3 Gbps Bandwidth</strong></li>
                 </ul>
                 <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="deploy-btn">Order Now</a>
@@ -265,9 +268,9 @@
                     <span class="currency-symbol">₹</span><span class="price-num" data-inr="560" data-usd="6.75" data-eur="6.20" data-gbp="5.35">560</span><span class="price-period">/mo</span>
                 </div>
                 <ul class="specs-list">
-                    <li><span>RAM</span> <strong>16 GB</strong></li>
+                    <li><span>Memory</span> <strong>16 GB RAM</strong></li>
                     <li><span>Processor</span> <strong>Ryzen 7 (300% CPU)</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
+                    <li><span>Storage</span> <strong>30 GB NVMe SSD</strong></li>
                     <li><span>Network</span> <strong>3 Gbps Bandwidth</strong></li>
                 </ul>
                 <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="deploy-btn">Order Now</a>
@@ -275,32 +278,23 @@
         </div>
     </div>
 
-    <!-- VPS TAB -->
     <div id="vps-tab" class="tab-content">
         <header class="main-header">
             <h1>Virtual Private Servers</h1>
-            <p>Lightning-fast NVMe storage with full root administrative access.</p>
+            <p>Full root access high-performance VPS solutions.</p>
         </header>
-        <div class="hosting-grid">
-            <div class="node-card popular">
-                <div class="popular-ribbon">POPULAR</div>
-                <div class="card-badge">VPS NODE</div>
-                <div class="card-title-area">
-                    <h3>Starter VPS</h3>
-                    <span class="sub-title">Cloud Server</span>
-                </div>
-                <div class="price-banner">
-                    <span class="currency-symbol">₹</span><span class="price-num" data-inr="399" data-usd="4.80" data-eur="4.40" data-gbp="3.80">399</span><span class="price-period">/mo</span>
-                </div>
-                <ul class="specs-list">
-                    <li><span>RAM</span> <strong>4 GB</strong></li>
-                    <li><span>vCPU</span> <strong>2 Cores</strong></li>
-                    <li><span>Storage</span> <strong>20 GB NVMe</strong></li>
-                    <li><span>Access</span> <strong>Full Root</strong></li>
-                </ul>
-                <a href="https://discord.gg/3v5JTxVUwd" target="_blank" class="deploy-btn">Order Now</a>
-            </div>
-        </div>
+    </div>
+    <div id="tools-tab" class="tab-content">
+        <header class="main-header"><h1>Tools</h1><p>Developer and hosting utility tools.</p></header>
+    </div>
+    <div id="store-tab" class="tab-content">
+        <header class="main-header"><h1>Store</h1><p>Addons, boosts, and extra services.</p></header>
+    </div>
+    <div id="apikeys-tab" class="tab-content">
+        <header class="main-header"><h1>API Keys</h1><p>Manage your account API tokens.</p></header>
+    </div>
+    <div id="developers-tab" class="tab-content">
+        <header class="main-header"><h1>Developers</h1><p>API documentation and webhooks.</p></header>
     </div>
 
     <script>
@@ -308,7 +302,8 @@
             event.preventDefault();
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
-            document.getElementById(tabId + '-tab').classList.add('active');
+            const targetTab = document.getElementById(tabId + '-tab');
+            if(targetTab) targetTab.classList.add('active');
             event.currentTarget.classList.add('active');
         }
 
